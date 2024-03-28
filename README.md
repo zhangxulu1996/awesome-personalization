@@ -361,6 +361,10 @@ This repository contains a collection of resources and papers on ***Personalizat
 [[Github](https://github.com/TencentQQGYLab/FaceStudio)] \[[Paper](https://arxiv.org/pdf/2312.02663)] \
 5-Dec-23
 
+**Cross Initialization for Personalized Text-to-Image Generation** \
+[[Github](https://github.com/lyupang/crossinitialization)] \[[Paper](https://arxiv.org/pdf/2312.15905)] \
+26-Dec-23
+
 **Personalized Face Inpainting with Diffusion Models by Parallel Visual Attention** \
 *WACV 2024* \
 [[Github](https://github.com/AtlantixJJ/PVA-CelebAHQ-IDI)] \[[Paper](https://arxiv.org/pdf/2312.03556)] \
@@ -470,10 +474,6 @@ This repository contains a collection of resources and papers on ***Personalizat
 **A Two-stage Personalized Virtual Try-on Framework with Shape Control and Texture Guidance** \
 [[Paper](https://arxiv.org/pdf/2312.15480)] \
 24-Dec-23
-
-**Cross Initialization for Personalized Text-to-Image Generation** \
-[[Github](https://github.com/lyupang/crossinitialization)] \[[Paper](https://arxiv.org/pdf/2312.15905)] \
-26-Dec-23
 
 **TryOnDiffusion: A Tale of Two UNets** \
 *CVPR 2023* \
