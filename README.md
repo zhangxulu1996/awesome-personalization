@@ -1,4 +1,16 @@
-This repository contains a collection of resources and papers on ***Personalization***.
+This repository contains a collection of resources and papers on ***Personalization***. We also release a survey about personalized content synthesis. You can find it from [[arXiv](https://arxiv.org/pdf/)].
+
+## Citation
+**If you find the information in our paper useful for your research, please feel free to cite it in your work. Thank you!**
+
+```text
+@article{,
+  title={},
+  author={},
+  journal={},
+  year={2024}
+}
+```
 
 ## Contents
 - [Papers](#papers)
