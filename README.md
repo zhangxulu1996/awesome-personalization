@@ -1,5 +1,7 @@
 This repository contains a collection of resources and papers on ***Personalization***. We also release a survey about personalized content synthesis. You can find it from [[arXiv](https://arxiv.org/abs/2405.05538)].
 
+If you find any missing work, please report it by creating an Issue in the repository to contribute the community together.
+
 ## Citation
 **If you find the information in our paper useful for your research, please consider citing it in your work. Thank you!**
 
