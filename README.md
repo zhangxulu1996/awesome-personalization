@@ -1,14 +1,16 @@
-This repository contains a collection of resources and papers on ***Personalization***. We also release a survey about personalized content synthesis. You can find it from [[arXiv](https://arxiv.org/pdf/)].
+This repository contains a collection of resources and papers on ***Personalization***. We also release a survey about personalized content synthesis. You can find it from [[arXiv](https://arxiv.org/abs/2405.05538)].
 
 ## Citation
-**If you find the information in our paper useful for your research, please consider to cite it in your work. Thank you!**
+**If you find the information in our paper useful for your research, please consider citing it in your work. Thank you!**
 
 ```text
-@article{,
-  title={},
-  author={},
-  journal={},
-  year={2024}
+@misc{zhang2024survey,
+      title={A Survey on Personalized Content Synthesis with Diffusion Models}, 
+      author={Xulu Zhang and Xiao-Yong Wei and Wengyu Zhang and Jinlin Wu and Zhaoxiang Zhang and Zhen Lei and Qing Li},
+      year={2024},
+      eprint={2405.05538},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
