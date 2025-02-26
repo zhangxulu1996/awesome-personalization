@@ -357,6 +357,10 @@ If you find any missing work, please report it by creating an Issue in the repos
 [[Paper](https://arxiv.org/abs/2404.14239)] \
 22-Apr-24
 
+**MagicTailor: Component-Controllable Personalization in Text-to-Image Diffusion Models** \
+[[Github](https://github.com/Correr-Zhou/MagicTailor)] \[[Paper](https://arxiv.org/pdf/2410.13370)] \
+6-Oct-24
+
 ## Personalized Style Generation
 **StyleDrop: Text-to-Image Synthesis of Any Style** \
 *NIPS 2023* \
