@@ -8,10 +8,12 @@
 
 This repository contains a collection of papers and resources on ***Personalized Content Synthesis (PCS) with Diffusion Model***.
 
-* We release a survey about personalized content synthesis. You can find it from [arXiv](https://arxiv.org/abs/2405.05538).
-* We release a unified test dataset for PCS task, see [more detail](#unified-test-dataset). 
+* We release **a survey** about personalized content synthesis. You can find it from [arXiv](https://arxiv.org/abs/2405.05538).
+* We release **a unified test** dataset for image PCS task, see [Unified Test Dataset](#unified-test-dataset).
+* We **uniformly evaluated** the performance of several existing open-source methods, see [Evaluation]().
+* We **collected**, **organized**, and **categorized** the existing papers related to the PCS, see [Paper List](#paper-list).
 
-# Citation
+# 🔗 Citation
 **If you find the information in our paper useful for your research, please consider citing it in your work. Thank you!**
 
 ```text
@@ -27,6 +29,7 @@ This repository contains a collection of papers and resources on ***Personalized
 
 # Contents
 - [Unified Test Dataset](#unified-test-dataset)
+- [Evaluation](#evaluation)
 - [Paper List](#paper-list)
   - [Personalized Subject Generation](#personalized-subject-generation)
   - [Multi-concept Composition](#multi-concept-composition)
@@ -43,6 +46,38 @@ To uniformly evaluate Personalized Content Synthesis (PCS) tasks, we introduces 
 personalized generation tasks, **object** and **face** personalization.
 
 Download Link: [PCS-dataset](https://drive.google.com/file/d/1WuEx29UWAZC18rz-raiglf14CR0DvA3G/view?usp=drive_link)
+
+
+# Evaluation
+
+We evaluate existing representative PCS methods based our unified test dataset. The evaluation results and settings are shown in the below table. For more details, please see our [survey paper](https://arxiv.org/abs/2405.05538).
+
+| Type   | Methods             | Framework | Backbone      | CLIP-T    | CLIP-I    |
+| ------ | ------------------- | --------- | ------------- | --------- | --------- |
+| Object | Textual Inversion   | TTF       | SD 1.5        | 0.199     | 0.749     |
+|        | Dreambooth          | TTF       | SD 1.5        | 0.286     | 0.772     |
+|        | P+                  | TTF       | SD 1.4        | 0.244     | 0.643     |
+|        | Custom Diffusion    | TTF       | SD 1.4        | 0.307     | 0.722     |
+|        | NeTI                | TTF       | SD 1.4        | 0.283     | 0.801     |
+|        | SVDiff              | TTF       | SD 1.5        | 0.282     | 0.776     |
+|        | Perfusion           | TTF       | SD 1.5        | 0.273     | 0.691     |
+|        | ELITE               | PTA       | SD 1.4        | 0.292     | 0.765     |
+|        | BLIP-Diffusion      | PTA       | SD 1.5        | 0.292     | 0.772     |
+|        | IP-Adapter          | PTA       | SD 1.5        | 0.272     | **0.825** |
+|        | SSR Encoder         | PTA       | SD 1.5        | 0.288     | 0.792     |
+|        | MoMA                | PTA       | SD 1.5        | 0.322     | 0.748     |
+|        | Diptych Prompting   | PTA       | FLUX 1.0 dev  | **0.327** | 0.722     |
+|        | λ-eclipse           | PTA       | Kandinsky 2.2 | 0.272     | 0.824     |
+|        | MS-Diffusion        | PTA       | SDXL          | 0.298     | 0.777     |
+| Face   | CrossInitialization | TTF       | SD 2.1        | 0.261     | 0.469     |
+|        | Face2Diffusion      | PTA       | SD 1.4        | 0.265     | 0.588     |
+|        | SSR Encoder         | PTA       | SD 1.5        | 0.233     | 0.490     |
+|        | FastComposer        | PTA       | SD 1.5        | 0.230     | 0.516     |
+|        | IP-Adapter          | PTA       | SD 1.5        | 0.292     | 0.462     |
+|        | IP-Adapter          | PTA       | SDXL          | 0.292     | 0.642     |
+|        | PhotoMaker          | PTA       | SDXL          | **0.311** | 0.547     |
+|        | InstantID           | PTA       | SDXL          | 0.278     | **0.707** |
+> _TTF: Test-time Fine-tuning_, _PTA: Pre-trained Adaptation_
 
 # Paper List
 ## Personalized Object Generation
@@ -828,4 +863,4 @@ Download Link: [PCS-dataset](https://drive.google.com/file/d/1WuEx29UWAZC18rz-ra
 
 # Contact Us
 
-If you find any missing work, please report it by creating an Issue in the repository to contribute the community together.
+If you find any missing work, please report it by creating an [Issue](https://github.com/zhangxulu1996/awesome-personalization/issues/new) in the repository to contribute the community together.
