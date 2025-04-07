@@ -1,8 +1,17 @@
-This repository contains a collection of resources and papers on ***Personalization***. We also release a survey about personalized content synthesis. You can find it from [[arXiv](https://arxiv.org/abs/2405.05538)].
+<center>
 
-If you find any missing work, please report it by creating an Issue in the repository to contribute the community together.
+# Awesome Personalization
 
-## Citation
+</center>
+
+![example](assets/example.png)
+
+This repository contains a collection of papers and resources on ***Personalized Content Synthesis (PCS) with Diffusion Model***.
+
+* We release a survey about personalized content synthesis. You can find it from [arXiv](https://arxiv.org/abs/2405.05538).
+* We release a unified test dataset for PCS task, see [more detail](#unified-test-dataset). 
+
+# Citation
 **If you find the information in our paper useful for your research, please consider citing it in your work. Thank you!**
 
 ```text
@@ -16,8 +25,9 @@ If you find any missing work, please report it by creating an Issue in the repos
 }
 ```
 
-## Contents
-- [Papers](#papers)
+# Contents
+- [Unified Test Dataset](#unified-test-dataset)
+- [Paper List](#paper-list)
   - [Personalized Subject Generation](#personalized-subject-generation)
   - [Multi-concept Composition](#multi-concept-composition)
   - [Personalized Style Generation](#personalized-style-generation)
@@ -26,8 +36,15 @@ If you find any missing work, please report it by creating an Issue in the repos
   - [Personalized Video Generation](#personalized-video-generation)
   - [Personalized 3D Generation](#personalized-3d-generation)
   - [Others](#others)
- 
-# Papers
+- [Contect Us](#contact-us)
+
+# Unified Test Dataset
+To uniformly evaluate Personalized Content Synthesis (PCS) tasks, we introduces a comprehensive evaluation dataset designed for the most common
+personalized generation tasks, **object** and **face** personalization.
+
+Download Link: [PCS-dataset](https://drive.google.com/file/d/1WuEx29UWAZC18rz-raiglf14CR0DvA3G/view?usp=drive_link)
+
+# Paper List
 ## Personalized Object Generation
 
 **An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion** \
@@ -808,3 +825,7 @@ If you find any missing work, please report it by creating an Issue in the repos
 *WACV 2024* \
 [[Github](https://github.com/littlewhitesea/StitchDiffusion)] \[[Paper](https://arxiv.org/pdf/2310.18840)] \
 28-Oct-23
+
+# Contact Us
+
+If you find any missing work, please report it by creating an Issue in the repository to contribute the community together.
