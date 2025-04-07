@@ -1,0 +1,17 @@
+diffusers[torch]==0.14.0
+# for image variation
+# git+https://github.com/huggingface/diffusers.git
+transformers
+accelerate
+ftfy
+einops
+albumentations==0.4.3
+kornia
+blobfile>=1.0.5
+wandb
+natsort
+safetensors
+datasets
+bitsandbytes
+webdataset
+open-clip-torch
