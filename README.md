@@ -28,9 +28,9 @@ This repository contains a collection of papers and resources on ***Personalized
 ```
 
 # 📖 Contents
-- [Unified Test Dataset](#unified-test-dataset)
-- [Evaluation](#evaluation)
-- [Paper List](#paper-list)
+- [🗂️ Unified Test Dataset](#unified-test-dataset)
+- [🔨 Evaluation](#evaluation)
+- [📃 Paper List](#paper-list)
   - [Personalized Subject Generation](#personalized-subject-generation)
   - [Multi-concept Composition](#multi-concept-composition)
   - [Personalized Style Generation](#personalized-style-generation)
@@ -39,7 +39,7 @@ This repository contains a collection of papers and resources on ***Personalized
   - [Personalized Video Generation](#personalized-video-generation)
   - [Personalized 3D Generation](#personalized-3d-generation)
   - [Others](#others)
-- [Contect Us](#contact-us)
+- [📮 Contact Us](#contact-us)
 
 # 🗂️ Unified Test Dataset
 To uniformly evaluate Personalized Content Synthesis (PCS) tasks, we introduces a comprehensive evaluation dataset designed for the most common
