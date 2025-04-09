@@ -9,9 +9,9 @@
 This repository contains a collection of papers and resources on ***Personalized Content Synthesis (PCS) with Diffusion Model***.
 
 * We release **a survey** about personalized content synthesis. You can find it from [arXiv](https://arxiv.org/abs/2405.05538).
-* We release **a unified test** dataset for image PCS task, see [Unified Test Dataset](#unified-test-dataset).
-* We **uniformly evaluated** the performance of several existing open-source methods, see [Evaluation]().
-* We **collected**, **organized**, and **categorized** the existing papers related to the PCS, see [Paper List](#paper-list).
+* We release **a unified test** dataset for image PCS task, see [🗂️ Unified Test Dataset](#️-unified-test-dataset).
+* We **uniformly evaluated** the performance of several existing open-source methods, see [🔨 Evaluation](#-evaluation).
+* We **collected**, **organized**, and **categorized** the existing papers related to the PCS, see [📮 Contact Us](#-contact-us).
 
 # 🔗 Citation
 **If you find the information in our paper useful for your research, please consider citing it in your work. Thank you!**
@@ -28,10 +28,10 @@ This repository contains a collection of papers and resources on ***Personalized
 ```
 
 # 📖 Contents
-- [🗂️ Unified Test Dataset](#unified-test-dataset)
-- [🔨 Evaluation](#evaluation)
-- [📃 Paper List](#paper-list)
-  - [Personalized Subject Generation](#personalized-subject-generation)
+- [🗂️ Unified Test Dataset](#️-unified-test-dataset)
+- [🔨 Evaluation](#-evaluation)
+- [📃 Paper List](#-paper-list)
+  - [Personalized Subject Generation](#-personalized-subject-generation)
   - [Multi-concept Composition](#multi-concept-composition)
   - [Personalized Style Generation](#personalized-style-generation)
   - [Personalized Face Generation](#personalized-face-generation)
@@ -39,7 +39,7 @@ This repository contains a collection of papers and resources on ***Personalized
   - [Personalized Video Generation](#personalized-video-generation)
   - [Personalized 3D Generation](#personalized-3d-generation)
   - [Others](#others)
-- [📮 Contact Us](#contact-us)
+- [📮 Contact Us](#-contact-us)
 
 # 🗂️ Unified Test Dataset
 To uniformly evaluate Personalized Content Synthesis (PCS) tasks, we introduces a comprehensive evaluation dataset designed for the most common
