@@ -74,10 +74,7 @@ class ImageDirEvaluator(CLIPEvaluator):
         return sim_samples_to_img, sim_samples_to_text
 
 
-def evaluate_i2i(generate_img_path, source_img_path):
-    device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
-    evaluator = CLIPEvaluator(device)
-
+def evaluate_i2i(evaluator, generate_img_path, source_img_path):
     generate_images = Image.open(generate_img_path)
 
     if os.path.isfile(source_img_path):
@@ -86,15 +83,15 @@ def evaluate_i2i(generate_img_path, source_img_path):
     else:
         similarity_score = []
         for file_name in os.listdir(source_img_path):
+            if file_name.endswith('_mask.jpg'):
+                continue
             if os.path.isfile(os.path.join(source_img_path, file_name)):
                 src_images = Image.open(os.path.join(source_img_path, file_name))
                 similarity_score.append(evaluator.img_to_img_similarity(generate_images, src_images=src_images).cpu().numpy())
         return np.mean(similarity_score)
 
 
-def evaluate_t2i(generate_img_path, prompt):
-    device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
-    evaluator = CLIPEvaluator(device)
+def evaluate_t2i(evaluator, generate_img_path, prompt):
 
     generate_images = Image.open(generate_img_path)
 
