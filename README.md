@@ -45,7 +45,7 @@ This repository contains a collection of papers and resources on ***Personalized
 To uniformly evaluate Personalized Content Synthesis (PCS) tasks, we introduces a comprehensive evaluation dataset designed for the most common
 personalized generation tasks, **object** and **face** personalization.
 
-Download Link: [PCS-dataset](https://drive.google.com/file/d/1WuEx29UWAZC18rz-raiglf14CR0DvA3G/view?usp=drive_link)
+Download Link: [PCS-dataset](https://drive.google.com/file/d/100Kc02oyItlM0m4_9oGuCk_FVOJQ6Ow7/view?usp=sharing)
 
 
 # 🔨 Evaluation
