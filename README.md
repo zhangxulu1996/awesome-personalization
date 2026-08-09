@@ -1,3 +1,5 @@
+
+
 <center>
 
 # Awesome Personalization
@@ -39,10 +41,9 @@ This repository contains a collection of papers and resources on ***Personalized
   - [Personalized Video Generation](#personalized-video-generation)
   - [Personalized 3D Generation](#personalized-3d-generation)
   - [Others](#others)
-- [📮 Contact Us](#-contact-us)
 
 # 🗂️ Unified Test Dataset
-To uniformly evaluate Personalized Content Synthesis (PCS) tasks, we introduces a comprehensive evaluation dataset designed for the most common
+To uniformly evaluate Personalized Content Synthesis (PCS) tasks, we introduce a comprehensive evaluation dataset designed for the most common
 personalized generation tasks, **object** and **face** personalization.
 
 Download Link: [PCS-dataset](https://drive.google.com/file/d/100Kc02oyItlM0m4_9oGuCk_FVOJQ6Ow7/view?usp=sharing)
@@ -50,7 +51,7 @@ Download Link: [PCS-dataset](https://drive.google.com/file/d/100Kc02oyItlM0m4_9o
 
 # 🔨 Evaluation
 
-We evaluate existing representative PCS methods based our unified test dataset. The evaluation results and settings are shown in the below table. For more details, please see our [survey paper](https://arxiv.org/abs/2405.05538).
+We evaluate existing representative PCS methods based on our unified test dataset. The evaluation results and settings are shown in the below table. For more details, please see our [survey paper](https://arxiv.org/abs/2405.05538).
 
 | Type   | Methods             | Framework | Backbone      | CLIP-T    | CLIP-I    |
 | ------ | ------------------- | --------- | ------------- | --------- | --------- |
@@ -153,7 +154,7 @@ We evaluate existing representative PCS methods based our unified test dataset. 
 | Visual Concept-Driven Image Generation with Text-to-Image Diffusion Model | arXiv | 2024<br>02-18 | — <br> [Paper](https://arxiv.org/pdf/2402.11487) |
 | MIGC: Multi-Instance Generation Controller for Text-to-Image Synthesis | arXiv | 2024<br>02-27 | — <br> [Paper](https://arxiv.org/abs/2402.05408) |
 | Multi-Object Editing in Personalized Text-To-Image Diffusion Model Via Segmentation Guidance | arXiv | 2024<br>03-18 | — <br> [Paper](https://ieeexplore.ieee.org/abstract/document/10447048) |
-| MC2: Multi-concept Guidance for Customized Multi-concept Generation | arXiv | 2024<br>04-12 | — <br> [Paper](https://arxiv.org/pdf/2404.05268) |
+| MC2: Multi-concept guidance for Customized Multi-concept Generation | arXiv | 2024<br>04-12 | — <br> [Paper](https://arxiv.org/pdf/2404.05268) |
 | MultiBooth: Towards Generating All Your Concepts in an Image from Text | arXiv | 2024<br>04-22 | — <br> [Paper](https://arxiv.org/abs/2404.14239) |
 | MagicTailor: Component-Controllable Personalization in Text-to-Image Diffusion Models | arXiv | 2024<br>10-06 | [Code](https://github.com/Correr-Zhou/MagicTailor) <br> [Paper](https://arxiv.org/pdf/2410.13370) |
 
